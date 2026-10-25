@@ -1,0 +1,9 @@
+# Pinned Lean sandbox container for proof execution
+FROM leanprover/lean4:v4.15.0
+
+# Security: Run as non-root user
+USER lean
+WORKDIR /project
+
+# Test lake build on startup capability
+CMD ["lake", "serve", "--"]

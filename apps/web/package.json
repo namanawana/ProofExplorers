@@ -1,0 +1,27 @@
+{
+  "name": "@proof-explorer/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@xyflow/react": "^12.3.0",
+    "katex": "^0.16.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-resizable-panels": "^2.1.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "monaco-editor": "^0.50.0",
+    "vite": "^5.4.0"
+  }
+}
